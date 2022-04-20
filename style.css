@@ -735,8 +735,11 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.titre-footer {
+    text-align: center;
+    color: black;
+    margin: 0 0 10px;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
