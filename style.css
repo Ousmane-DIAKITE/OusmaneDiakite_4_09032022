@@ -47,7 +47,7 @@ a:hover {
 .bloc-link {
     font-weight: 900;
     text-decoration: underline;
-    font-size: 18px;
+    line-height : 1.6;
 }
 
 .bloc-lg {
