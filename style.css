@@ -44,6 +44,11 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc-link {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
