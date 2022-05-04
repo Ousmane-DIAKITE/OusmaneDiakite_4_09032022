@@ -44,6 +44,14 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc-link {
+    font-weight: 900;
+    text-decoration: underline;
+    line-height : 1.7;
+    font-size: 15px;
+    color: black;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -91,7 +99,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -677,7 +685,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
 }
 
 .tight-width-whitespace {
@@ -723,11 +733,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
@@ -735,12 +745,21 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.nom-du-site-footer {
+    text-align: center;
+    color: black!important;
+    margin: 0 0 10px;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-row {
@@ -775,21 +794,21 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
@@ -810,19 +829,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
