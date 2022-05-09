@@ -794,7 +794,11 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: black;
+}
+
+.tc-white-index {
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -837,7 +841,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-monochrome.webp");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
