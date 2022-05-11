@@ -657,8 +657,8 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
+.p-row
 p,
 label,
 .btn,
@@ -668,6 +668,16 @@ a {
     color: #575757;
 }
 
+.p-row {     
+    font-size: 14px;
+}
+
+.h5-footer {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    
+}
 .container {
     max-width: 1000px;
 }
